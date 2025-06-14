@@ -99,7 +99,9 @@ export function useAutoScroller({
     const scrollTop = Math.round(
       scrollSpeed.current.y * scrollDirection.current.y
     );
-
+    console.log('o la la');
+    console.log(scrollLeft);
+    console.log(scrollTop);
     scrollContainer.scrollBy(scrollLeft, scrollTop);
   }, []);
   const sortedScrollableAncestors = useMemo(
