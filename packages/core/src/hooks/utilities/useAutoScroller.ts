@@ -93,8 +93,12 @@ export function useAutoScroller({
       return;
     }
 
-    const scrollLeft = scrollSpeed.current.x * scrollDirection.current.x;
-    const scrollTop = scrollSpeed.current.y * scrollDirection.current.y;
+    const scrollLeft = Math.round(
+      scrollSpeed.current.x * scrollDirection.current.x
+    );
+    const scrollTop = Math.round(
+      scrollSpeed.current.y * scrollDirection.current.y
+    );
 
     scrollContainer.scrollBy(scrollLeft, scrollTop);
   }, []);
