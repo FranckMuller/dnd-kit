@@ -1,4 +1,5 @@
 {
+  "version": "6.3.1",
   "name": "dnd-kit",
   "description": "dnd kit – a lightweight React library for building performant and accessible drag and drop experiences",
   "author": "Claudéric Demers",
