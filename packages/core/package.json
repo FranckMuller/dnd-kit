@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clauderic/dnd-kit.git",
+    "url": "git+https://github.com/FranckMuller/dnd-kit#master",
     "directory": "packages/core"
   },
   "scripts": {
@@ -31,8 +31,8 @@
   },
   "dependencies": {
     "tslib": "^2.0.0",
-    "@dnd-kit/accessibility": "^3.1.1",
-    "@dnd-kit/utilities": "^3.2.2"
+    "@dnd-kit/accessibility": "file:../accessibility",
+    "@dnd-kit/utilities": "file:../utilities"
   },
   "publishConfig": {
     "access": "public"
