@@ -26,7 +26,7 @@
     "dist"
   ],
   "dependencies": {
-    "@dnd-kit/utilities": "^3.2.2",
+    "@dnd-kit/utilities": "file:../utilities",
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
